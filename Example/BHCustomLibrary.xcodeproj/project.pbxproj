@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0487B970387F3AAD5870C605 /* BHCustomLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BHCustomLibrary.podspec; path = ../BHCustomLibrary.podspec; sourceTree = "<group>"; };
+		0487B970387F3AAD5870C605 /* BHCustomLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BHCustomLibrary.podspec; path = ../BHCustomLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25010EF393168C9E4B9D25CA /* Pods-BHCustomLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHCustomLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHCustomLibrary_Tests/Pods-BHCustomLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41153D0CEC128813ACFCA23B /* Pods_BHCustomLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHCustomLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7ACD10882699F5A26C6922 /* Pods-BHCustomLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHCustomLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHCustomLibrary_Tests/Pods-BHCustomLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,11 +61,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C1AED87AFA532219027182A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7C1AED87AFA532219027182A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3C04D6E3205B93C152E5FC6 /* Pods-BHCustomLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHCustomLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHCustomLibrary_Example/Pods-BHCustomLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF87996539737C010B920560 /* Pods_BHCustomLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHCustomLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7C4AC6D0FFB4D905CAA5B8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7C4AC6D0FFB4D905CAA5B8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E717AC2411EA06053EACFAB1 /* Pods-BHCustomLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHCustomLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHCustomLibrary_Example/Pods-BHCustomLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sunbinhua;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A6C6R885GZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = E717AC2411EA06053EACFAB1 /* Pods-BHCustomLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6C6R885GZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHCustomLibrary/BHCustomLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BHCustomLibrary/BHCustomLibrary-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = A3C04D6E3205B93C152E5FC6 /* Pods-BHCustomLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6C6R885GZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHCustomLibrary/BHCustomLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BHCustomLibrary/BHCustomLibrary-Info.plist";
