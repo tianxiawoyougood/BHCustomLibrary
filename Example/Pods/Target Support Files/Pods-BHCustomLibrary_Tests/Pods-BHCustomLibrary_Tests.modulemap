@@ -1,0 +1,6 @@
+framework module Pods_BHCustomLibrary_Tests {
+  umbrella header "Pods-BHCustomLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

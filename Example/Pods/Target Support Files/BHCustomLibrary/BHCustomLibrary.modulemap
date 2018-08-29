@@ -1,0 +1,6 @@
+framework module BHCustomLibrary {
+  umbrella header "BHCustomLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
